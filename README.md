@@ -1,2 +1,4 @@
-# Drone-Programming
-Tello EDU Programming via Python. #TheBasicsGoHere
+# Drone Programming
+
+### Content
+> Basic Drone codings, booting up, running and etc. goes here.
