@@ -1,10 +1,8 @@
 import pygame
 
-
 def init():
     pygame.init()
     win = pygame.display.set_mode((400, 400))
-
 
 def getKey(keyName):
     ans = False
@@ -22,10 +20,11 @@ def getKey(keyName):
 
     return ans
 
-
 def main():
-    print(getKey('a'))
-
+    if getKey("LEFT"):
+        print("Left key is being pressed!")
+    if getKey("RIGHT"):
+        print("Right key is being pressed!")
 
 if __name__ == '__main__':
     init()
